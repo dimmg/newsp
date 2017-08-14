@@ -1,0 +1,26 @@
+{
+    "title": "Create News",
+    "description": "Creates a new newspost.",
+    "additionalProperties": false,
+    "type": "object",
+    "$schema": "http://json-schema.org/draft-04/schema",
+    "required": [
+        "subject",
+        "image",
+        "content"
+    ],
+    "properties": {
+        "subject": {
+            "type": "string",
+            "minLength": 10
+        },
+        "image": {
+            "type": "string",
+            "format": "uri"
+        },
+        "content": {
+            "type": "string",
+            "minLength": 20
+        }
+    }
+}

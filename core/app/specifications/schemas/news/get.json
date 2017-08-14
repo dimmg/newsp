@@ -1,0 +1,14 @@
+{
+    "title": "Retrieve News",
+    "description": "Returns all created Posts",
+    "type": "object",
+    "$schema": "http://json-schema.org/draft-04/schema",
+    "properties": {
+        "offset": {
+            "type": "integer"
+        },
+        "limit": {
+            "type": "integer"
+        }
+    }
+}

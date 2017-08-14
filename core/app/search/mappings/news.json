@@ -1,0 +1,29 @@
+{
+    "post": {
+        "properties": {
+            "content": {
+                "type": "string"
+            },
+            "created_at": {
+                "type": "date"
+            },
+            "image": {
+                "type": "object"
+            },
+            "slug": {
+                "type": "string",
+                "index": "not_analyzed"
+            },
+            "subject": {
+                "type": "string"
+            },
+            "updated_at": {
+                "type": "date"
+            },
+            "uuid": {
+                "type": "string",
+                "index": "not_analyzed"
+            }
+        }
+    }
+}
